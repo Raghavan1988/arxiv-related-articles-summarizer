@@ -1,3 +1,7 @@
+#wget https://arxiv-r-1228.s3.us-west-1.amazonaws.com/arxiv-metadata-oai-snapshot.json
+#wget https://arxiv-r-1228.s3.us-west-1.amazonaws.com/annoy_index.ann
+## Download the .ann and .json files from Amazon S3 
+
 import json 
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
